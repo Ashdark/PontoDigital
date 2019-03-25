@@ -1,9 +1,9 @@
 .titulo{ 
     font-family: 'Satisfy', cursive;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     text-align-last: center;
-    top: 300px;
+    top: 270px;
     position: absolute;
     right: 650px;
     
@@ -14,9 +14,12 @@
     font-size: 15px;
     height: 100px;
     width: 400px;
-    right: 150px;
+    right: 575px;
     position: absolute;
-    top: 265px;
+    top: 400px;
+    border: 3px solid black;
+    padding: 4px;
+    margin: 4px;
 }
 
 .menu{
@@ -34,10 +37,10 @@
     font-size: 20px;
     font-weight: bold;
     font-style: italic;
-    position: relative;
-    top: 650px;
-    left: 650px;
-    display: inline;
+    top: 1200px;
+    display: flex;
+    bottom: 20px;
+    text-align: center;
 }
 
 fieldset {
@@ -47,11 +50,12 @@ fieldset {
     border: 0;
     border: 1px solid black;
     width: 20%;
-    top: 700px;
+    top: 900px;
     margin-left: 20px;
     margin-right: 20px;
     position: relative;
-
+    background: rgb(199, 197, 197);
+    top: 1200px;
   }
 legend {
     display: table;
@@ -61,7 +65,7 @@ legend {
     margin: auto;
     padding: 5px 20px;
     font-size: 20px;
-    text-align: center;
+    text-align: center; 
   }
     
 .alinhar{
@@ -104,6 +108,9 @@ a{
     background-color: rgb(190, 194, 196);
     border: 3px solid;
     cursor: pointer;
+    top: 230px;
+    left: 650px;
+    position: relative;
 }
 
 .botão2{
@@ -113,7 +120,7 @@ a{
     border: 3px solid;
     cursor: pointer;
     position: relative;
-    top: 700px;
+    top: 1200px;
     margin-left: -10px;
     margin-right: 250px;
     ;
@@ -126,7 +133,7 @@ a{
     border: 3px solid;
     cursor: pointer;
     position: relative;
-    top: 690px;
+    top: 1190px;
     margin-left: -13px;
 
 }
@@ -138,6 +145,9 @@ a{
         color: aqua;
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         text-align: center;
+        position: relative;
+        top: 320px;
+        right: 25px;
     }
 
 .circulo{
@@ -148,8 +158,10 @@ a{
     background: #bbb;
     display: inline-block;
     border: black 1.5px solid;
-    margin-right: 190px;
-    margin-left: 180px;
+    margin-right: 185px;
+    margin-left: 185px;
+    position: relative;
+    top: 360px;
 }
 .textocomentario{
     font-family: 'Open sans', sans-serif;
@@ -161,11 +173,31 @@ a{
     border: solid 2px black;
     font-style: italic;
     text-align: center;
-    margin-left: 80px;
-    margin-right: 90px;
+    margin-left: 85px;
+    margin-right: 85px;
+    position: relative;
+    top: 370px;
 }
 
-body,{
-    
-    background-image: url(../Imagens/Witchblades.jpg);
+.planos1 {
+font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+font-weight: bold;
+font-style: italic;
+position: relative;
+top: 1230px;
+margin-right: 150px;
+margin-left: 165px;
+}
+
+.imagemlogo {
+    top: -720px;
+    position: relative;
+    left: 587px;
+    border-radius: 140px;
+}
+
+body {
+    height: 1800px;
+    background-image: linear-gradient(to bottom, rgba(135,206,250), rgba(255,255,255));
 }
