@@ -1,0 +1,22 @@
+#login{
+    text-align: right;
+}
+body{
+    background-image: url("../img/city-buildings.jpg");
+}
+.quadrado1{
+    position: relative;
+    left: 35%;
+    right: 35%;
+    padding: 10px;
+    margin: 0;
+
+}
+.textotitulo{
+    text-align: justify;
+    width: 450px;
+    height: 200px;
+    font-size: 20px;
+    color:white;
+    text-shadow: 2px 1px black;
+}
