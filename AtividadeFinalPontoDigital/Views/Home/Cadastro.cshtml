@@ -1,0 +1,36 @@
+@model AtividadeFinalPontoDigital.Models.PlanoModel;
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="~/css/style.css">
+<header>
+    @{
+        Html.RenderPartial("_HeadNavBar");
+    }
+</header>
+<body>
+<div class="container">
+   
+    <form action="/Home/Cadastrar" method="POST" enctype="multipart/form-data">
+     <h2>Cadastre-se</h2>
+        <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" class="form-control">
+            <label for="email">Email:</label>
+            <input type="text" name="email" class="form-control">
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" class="form-control">
+            <label for="dataNascimento">Data de Nascimento</label>
+            <input type="date" name="dataNascimento" class="form-control">
+            <label for="plano">Plano</label>
+            <select id="plano" name="plano" class="form-control" required>
+                <option value="" disabled selected>Selecione um plano</option>
+                <option value="Alfa">Alfa</option>
+                <option value="Beta">Beta</option>
+                <option value="Gamma">Gamma</option>
+                <option value="Delta">Delta</option>
+            </select>
+            <br>
+            <input type="submit" value="Cadastrar" class="btn btn-secondary btn-lg btn-block">
+        </div>
+    </form>
+</div>
+</body>

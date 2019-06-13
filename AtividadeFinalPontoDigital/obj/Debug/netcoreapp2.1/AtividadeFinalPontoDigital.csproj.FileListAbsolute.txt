@@ -23,3 +23,17 @@ C:\Users\45579480814\Desktop\AtividadeFinalPontoDigital\obj\Debug\netcoreapp2.1\
 C:\Users\45579480814\Desktop\AtividadeFinalPontoDigital\obj\Debug\netcoreapp2.1\AtividadeFinalPontoDigital.csproj.CopyComplete
 C:\Users\45579480814\Desktop\AtividadeFinalPontoDigital\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_HeadNavBar.g.cshtml.cs
 C:\Users\45579480814\Desktop\AtividadeFinalPontoDigital\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\45579480814\Desktop\AtividadeFinalPontoDigital\obj\Debug\netcoreapp2.1\Razor\Views\Home\Login.g.cshtml.cs
+C:\Users\45579480814\Desktop\AtividadeFinalPontoDigital\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\45579480814\Desktop\AtividadeFinalPontoDigital\obj\Debug\netcoreapp2.1\Razor\Views\Home\Sobre.g.cshtml.cs
+C:\Users\45579480814\Desktop\AtividadeFinalPontoDigital\obj\Debug\netcoreapp2.1\Razor\Views\Home\Comentarios.g.cshtml.cs
+C:\Users\45579480814\Desktop\AtividadeFinalPontoDigital\obj\Debug\netcoreapp2.1\Razor\Views\Home\Cadastro.g.cshtml.cs
+C:\Users\45579480814\Desktop\AtividadeFinalPontoDigital\obj\Debug\netcoreapp2.1\Razor\Views\Login\Logged.g.cshtml.cs
+C:\Users\45579480814\Desktop\AtividadeFinalPontoDigital\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_HeadNavBarLogged.g.cshtml.cs
+C:\Users\45579480814\Desktop\AtividadeFinalPontoDigital\obj\Debug\netcoreapp2.1\Razor\Views\Login\Comentarios.g.cshtml.cs
+C:\Users\45579480814\Desktop\AtividadeFinalPontoDigital\obj\Debug\netcoreapp2.1\Razor\Views\Login\Index.g.cshtml.cs
+C:\Users\45579480814\Desktop\AtividadeFinalPontoDigital\obj\Debug\netcoreapp2.1\Razor\Views\Login\Sobre.g.cshtml.cs
+C:\Users\45579480814\Desktop\AtividadeFinalPontoDigital\obj\Debug\netcoreapp2.1\Razor\Views\Login\LoggedAdmin.g.cshtml.cs
+C:\Users\45579480814\Desktop\AtividadeFinalPontoDigital\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_HeadNavBarLoggedAdmin.g.cshtml.cs
+C:\Users\45579480814\Desktop\AtividadeFinalPontoDigital\obj\Debug\netcoreapp2.1\Razor\Views\Login\ComentariosAprovarRecusar.g.cshtml.cs
+C:\Users\45579480814\Desktop\AtividadeFinalPontoDigital\obj\Debug\netcoreapp2.1\Razor\Views\Login\VerComentarios.g.cshtml.cs

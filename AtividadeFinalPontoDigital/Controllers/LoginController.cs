@@ -23,8 +23,9 @@ namespace AtividadeFinalPontoDigital.Controllers
         ViewData["NomeView"] = "Logado!";
         return View();
     }
-        public IActionResult Comentarios(){
-        ViewData["NomeView"] = "Comentarios - Ponto Digital";
+        public IActionResult ComentariosAprovarRecusar(){
+        ComentarioRepositorio comentarioRepositorio = new ComentarioRepositorio();
+        ViewData["comentarios"] = comentarioRepositorio.Listar();
         return View();
     }
         public IActionResult Sobre(){
@@ -36,8 +37,34 @@ namespace AtividadeFinalPontoDigital.Controllers
         return View();
     }
             public IActionResult LoggedAdmin(){
-            ViewData["NomeView"] = "Administrador na área, hora do ban";
+            UsuarioRepositorio userRepositorio = new UsuarioRepositorio();
+            ViewData["usuarios"] = userRepositorio.Listar();
             return View();
         }
-}
+        [HttpGet]
+        public IActionResult Comentarios(){
+        ViewData["NomeView"] = "Comentarios - Ponto Digital";
+        return View();
+    }
+    [HttpGet]
+        public IActionResult VerComentarios(){
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Comentar(IFormCollection form){
+            ComentarioModel comentario = new ComentarioModel(
+                nomecomentario: form["Nomecomentario"],
+                comentario: form["Comentario"]
+            );
+        ComentarioRepositorio comentarioRepositorio = new ComentarioRepositorio();
+        comentarioRepositorio.Cadastrar(comentario);
+
+        return RedirectToAction("Index");
+        }
+        // public IActionResult AprovarComentario(){
+        //     ComentarioRepositorio comentarioRepositorio = new ComentarioRepositorio();
+        //     comentarioRepositorio.Aprovar();
+
+        // return RedirectToAction("ComentariosAprovarRecusar");
+        }
 }

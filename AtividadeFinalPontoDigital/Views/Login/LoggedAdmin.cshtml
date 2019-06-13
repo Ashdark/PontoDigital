@@ -1,0 +1,36 @@
+@using AtividadeFinalPontoDigital.Models;
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="~/css/style.css">
+<script src="~/js/script.js"> </script>
+<header>
+    @{
+        Html.RenderPartial("_HeadNavBarLoggedAdmin");
+    }
+
+</header>
+<h2>@TempData["Mensagem"]</h2>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Procurar por palavra-chave">
+<table id="myTable">
+  <tr class="header">
+    <th style="width:5%;">Nome</th>
+    <th style="width:5%;">Email</th>
+    <th style="width:6%;">Senha</th>
+    <th style="width:5%;">ID</th>
+    <th style="width:5%;">Data de nascimento</th>
+    <th style="width:10%;">Plano</th>
+  </tr>
+  </thead>
+  <tbody>
+    @foreach (var item in ViewData["usuarios"] as List<UsuarioModel>)
+    {
+        <tr>
+            <td>@item.Nome</td>
+            <td>@item.Email</td>
+            <td>@item.Senha</td>
+            <td>@item.Id</td>
+            <td>@item.DataNascimento</td>
+            <td>@item.Plano</td>
+        </tr>
+    }
+  </tbody>
+</table>
