@@ -1,0 +1,31 @@
+@using AtividadeFinalPontoDigital.Models;
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="~/css/style.css">
+<header>
+    @{
+        Html.RenderPartial("_HeadNavBarLoggedAdmin");
+    }
+</header>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Procurar por palavra-chave">
+<table id="myTable">
+  <tr class="header">
+    <th style="width:5%">ID</th>
+    <th style="width:5%;">Nome</th>
+    <th style="width:5%;">Comentário</th>
+    <th style="width:5%">Aprovar</th>
+    <th style="width:5%">Recusar</th>
+  </tr>
+  </thead>
+  <tbody>
+    @foreach (var item in ViewData["comentarios"] as List<ComentarioModel>)
+    {
+        <tr>
+            <td>@item.ID</td>
+            <td>@item.Nome</td>
+            <td>@item.Comentario</td>
+            <td><button name="aprovar" class="button1" type="submit" value="Aprovar" onclick="window.location='http://localhost:5000/Login/AprovarComentario?id=@item.ID';">Aprovar</button></td>
+            <td><button name="recusar" class="button2" type="submit" value="Recusar" onclick="window.location='http://localhost:5000/Login/ComentariosAprovarRecusar?@item.ID';">Recusar</button></td>
+        </tr>
+    }
+  </tbody>
+</table>

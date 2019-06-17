@@ -1,0 +1,203 @@
+.titulo{ 
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-align-last: center;
+    top: 270px;
+    position: absolute;
+    right: 650px;
+    
+}
+
+.textos{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    height: 100px;
+    width: 400px;
+    right: 575px;
+    position: absolute;
+    top: 400px;
+    border: 3px solid black;
+    padding: 4px;
+    margin: 4px;
+}
+
+.menu{
+    font-size: 16px;
+    word-spacing: 24px;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    right: 150px;
+    bottom: 94%;
+
+}
+
+.planos{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    top: 1200px;
+    display: flex;
+    bottom: 20px;
+    text-align: center;
+}
+
+fieldset {
+    display: inline;
+    margin: 20px auto;
+    padding: 15px;
+    border: 0;
+    border: 1px solid black;
+    width: 20%;
+    top: 900px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    background: rgb(199, 197, 197);
+    top: 1200px;
+  }
+legend {
+    display: table;
+    min-width: 0px;
+    max-width: 70%;
+    position: relative;
+    margin: auto;
+    padding: 5px 20px;
+    font-size: 20px;
+    text-align: center; 
+  }
+    
+.alinhar{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Open sans', sans-serif;
+    
+}
+.sign{
+    font-family: 'Open sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    float: right, top;
+    margin: auto;
+}
+
+.fieldset1 {
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 4px;
+    border: 0;
+    border: 3px solid black;
+    width: 7%;
+    height: 3%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(75, 170, 173);
+  }
+a{
+    color: black;
+}
+
+.botão1{
+    height: 60px;
+    width: 130px;
+    background-color: rgb(190, 194, 196);
+    border: 3px solid;
+    cursor: pointer;
+    top: 230px;
+    left: 650px;
+    position: relative;
+}
+
+.botão2{
+    height: 60px;
+    width: 130px;
+    background-color: rgb(236, 233, 233);
+    border: 3px solid;
+    cursor: pointer;
+    position: relative;
+    top: 1200px;
+    margin-left: -10px;
+    margin-right: 250px;
+    ;
+}
+
+.botão3{
+    height: 60px;
+    width: 160px;
+    background-color: rgb(236, 233, 233);
+    border: 3px solid;
+    cursor: pointer;
+    position: relative;
+    top: 1190px;
+    margin-left: -13px;
+
+}
+
+.textos1{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        color: aqua;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        text-align: center;
+        position: relative;
+        top: 320px;
+        right: 25px;
+    }
+
+.circulo{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: #bbb;
+    display: inline-block;
+    border: black 1.5px solid;
+    margin-right: 185px;
+    margin-left: 185px;
+    position: relative;
+    top: 360px;
+}
+.textocomentario{
+    font-family: 'Open sans', sans-serif;
+    font-size: 14px;
+    height: 150px;
+    width: 300px;
+    background: #bbb;
+    display: inline-block;
+    border: solid 2px black;
+    font-style: italic;
+    text-align: center;
+    margin-left: 85px;
+    margin-right: 85px;
+    position: relative;
+    top: 370px;
+}
+
+.planos1 {
+font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+font-weight: bold;
+font-style: italic;
+position: relative;
+top: 1230px;
+margin-right: 150px;
+margin-left: 165px;
+}
+
+.imagemlogo {
+    top: -720px;
+    position: relative;
+    left: 587px;
+    border-radius: 140px;
+}
+
+body {
+    height: 1800px;
+    background-image: linear-gradient(to bottom, rgba(135,206,250), rgba(255,255,255));
+}
